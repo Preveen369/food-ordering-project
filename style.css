@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding:0;
+    background-color: black;
+    color:white;
+}
+
+nav{
+    text-align:center;
+    padding-top:15px;
+    height: 35px;
+}
+
+h1{
+    font-size: xx-large;
+}
+li,h1{
+    display:inline;
+    
+}
+li{
+    
+    color:gray;
+    cursor: pointer;
+}
+
+li:hover{
+    color:white;
+}
+
+.Dishes{
+    background-color: white;
+    height: 370px;
+    width:95%;
+    text-align: center;
+    margin:2.5%;    
+}
+
+.box{
+    background-color: white;
+    border-color:black;
+    border-width:4px;
+    border-style:solid;
+    margin-top:12px;
+    display: inline-block;
+    width:180px;
+}
+
+.desc,h5{
+    background-color: white;
+    color:black;
+}
+
+.button{
+    padding: 5px;
+    cursor: pointer;
+    font-size: 12px;
+
+}
+
+.button:hover{
+    color: gray;
+}
+
+.field{
+    background-color:white;
+    color:black;
+    padding: 1%;
+}
+
+.confirm{
+    display: inline-block;
+    background-color: yellow;
+    color:black;
+    padding:5px;
+    width:30%;
+    margin-bottom: 2%;
+    cursor: pointer;
+}
